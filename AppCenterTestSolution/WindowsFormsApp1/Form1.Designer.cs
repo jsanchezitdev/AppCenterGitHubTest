@@ -28,13 +28,34 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
+			this.customControl11 = new WindowsFormsApp1.CustomControl1();
+			this.SuspendLayout();
+			// 
+			// customControl11
+			// 
+			this.customControl11.BackColor = System.Drawing.Color.Yellow;
+			this.customControl11.Location = new System.Drawing.Point(131, 120);
+			this.customControl11.Name = "customControl11";
+			this.customControl11.Size = new System.Drawing.Size(320, 233);
+			this.customControl11.TabIndex = 0;
+			this.customControl11.Text = "customControl11";
+			// 
+			// Form1
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Red;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.customControl11);
+			this.Name = "Form1";
 			this.Text = "Form1";
+			this.ResumeLayout(false);
+
 		}
 
 		#endregion
+
+		private CustomControl1 customControl11;
 	}
 }
 
